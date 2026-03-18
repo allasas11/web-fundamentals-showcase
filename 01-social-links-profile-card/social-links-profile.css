@@ -85,7 +85,7 @@ p {
 }
 
 .social_links .link a:hover,
-.social-links .link a:focus 
+.social-links .link a:focus, 
 .social-links .link a:active {
     background-color: var(--green);
     color: var(--bg-card-link-color);
