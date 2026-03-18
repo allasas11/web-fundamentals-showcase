@@ -12,7 +12,7 @@ As a Junior Developer, I believe strong frameworks are built on strong foundatio
 # Project Directory
 
 | Project Name | Stack | Key Focus | Live Demo |
-| **Project One** | HTML, SCSS, JS | BEM Methodology, Form Logic | [View Demo](#) |
+| **Social Links Profile** | HTML, CSS | Flexbox, Hover States | [View Demo](#) |
 
 ## Evolution of Skills
 While these projects showcase my roots, my current focus is on building scalable, full-stack applications. 
