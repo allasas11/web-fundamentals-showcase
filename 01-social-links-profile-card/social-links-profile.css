@@ -17,6 +17,37 @@ body {
     font-family: "Inter", sans-serif;
 }
 
+.back-home {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 100;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%, 0.6);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 16px;
+    background-color: hsl(0, 0%, 12%);
+    border: 1px solid var(--bg-card-link-color);
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+.back-home i {
+    font-size: 12px; 
+    transition: transform 0.3s ease;
+}
+
+.back-home:hover {
+    color: hsl(75, 94%, 57%);
+    border-color: hsl(75, 94%, 57%);
+    background-color: hsl(0, 0%, 18%);
+}
+
+.back-home:hover i {
+    transform: translateX(-3px); 
+}
+
 .main_container {
     display: flex;
     justify-content: center;
