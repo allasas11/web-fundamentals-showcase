@@ -78,6 +78,18 @@ body {
     text-decoration: none;
 }
 
+.card[href*="02-recipe-page"]:hover {
+    border-color: #c77d7d;
+}
+
+.card[href*="02-recipe-page"]::before {
+    background: radial-gradient(
+        800px circle at var(--mouse-x) var(--mouse-y), 
+        rgba(199, 125, 125, 0.1), 
+        transparent 40%
+    );
+}
+
 .card-img {
     position: absolute;
     top: 0;
@@ -85,7 +97,7 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover; 
-    object-position: center; 
+    object-position: top; 
     z-index: -1;
     opacity: 0.4;
     scale: 1;
@@ -150,6 +162,14 @@ body {
     border-radius: 50px;
     margin-bottom: 12px;
 }
+
+.recipe-tag {
+    background: rgba(199, 125, 125, 0.5);
+    color: hsl(330, 100%, 98%);
+}
+
+
+
 
 h3 { margin-top: 10px; font-size: 1.5rem; }
 .disabled { opacity: 0.4; cursor: not-allowed; }
